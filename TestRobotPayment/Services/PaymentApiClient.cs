@@ -53,13 +53,13 @@ namespace PaymentApiProject.Services
             {
                 // Handle HTTP request errors (common for redirects)
                 Console.WriteLine($"HTTP Request Error: {ex.Message}");
-                return null;
+                return ex.Message;
             }
             catch (Exception ex)
             {
                 // Handle other general exceptions
                 Console.WriteLine($"Error occurred: {ex.Message}");
-                return null;
+                return ex.Message;
             }
         }
     }

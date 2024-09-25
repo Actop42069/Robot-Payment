@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestRobotPayment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64f5c025bba0721c3b92a2865591a08159a33487")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestRobotPayment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestRobotPayment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
