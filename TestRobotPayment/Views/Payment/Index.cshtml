@@ -1,0 +1,24 @@
+﻿@model PaymentApiProject.Models.PaymentRequest
+
+<h2>Payment Form</h2>
+
+<form asp-action="MakePayment" method="post">
+    <div>
+        <label>Store ID:</label>
+        <input asp-for="StoreId" />
+    </div>
+    <div>
+        <label>Amount:</label>
+        <input asp-for="Amount" />
+    </div>
+    <div>
+        <label>Tax:</label>
+        <input asp-for="Tax" />
+    </div>
+    <div>
+        <label>Shipping Fee:</label>
+        <input asp-for="ShippingFee" />
+    </div>
+
+    <button type="submit">Submit Payment</button>
+</form>
